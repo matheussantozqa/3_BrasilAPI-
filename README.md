@@ -6,11 +6,11 @@ Este documento descreve a colecao de testes criada para validar os endpoints da 
 
 A colecao foi configurada para validar tres aspectos principais em cada requisicao: o codigo de status da resposta, a integridade do corpo dos dados e os cabecalhos de comunicacao.
 
-| Requisicao | Endpoint | Validações Realizadas |
+| Requisicao | Endpoint | Validações |
 | :--- | :--- | :--- |
-| GET | /posts | Status 200, Formato de Array, Content-Type JSON |
-| POST | /posts | Status 201, Persistencia de Dados, Geracao de ID |
-| PUT | /posts/1 | Status 200, Atualizacao de Titulo, Presenca de Header Server |
+| GET | /posts | Status 200 |
+| POST | /posts | Status 201 |
+| PUT | /posts/1 | Status 200 |
 
 ## Detalhamento das Requisicoes
 
